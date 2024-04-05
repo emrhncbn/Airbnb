@@ -1,0 +1,40 @@
+.apartment-listings {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .apartment-card {
+    flex-basis: 100%; /* Kartların ekran boyutuna genişlemesini sağlar */
+    border: 1px solid #ccccccbe;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden; /* Resimlerin kartın dışına taşmasını engeller */
+    display: flex;
+  }
+  
+  .apartment-card img {
+    width: 300px;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .apartment-info {
+    padding: 10px;
+  }
+  
+  .apartment-info h2 {
+    font-size: 1.2em;
+    color:  rgb(15, 117, 90);
+  }
+  
+  button {
+    background-color:  rgb(15, 117, 90);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(15, 117, 90);
+  }
